@@ -1,11 +1,8 @@
-import encodings
 import json
 import logging
 import os.path
-from sre_parse import State
 import sys
 import tkinter as tk
-import webbrowser
 from datetime import datetime, timedelta
 from enum import Enum
 from functools import partial
@@ -20,7 +17,7 @@ from ttkHyperlinkLabel import HyperlinkLabel
 
 
 this = sys.modules[__name__]  # For holding module globals
-this.VersionNo = "2.2"
+this.VersionNo = "2.3"
 this.FactionNames = []
 this.TodayData = {}
 this.YesterdayData = {}
